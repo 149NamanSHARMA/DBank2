@@ -1,0 +1,9 @@
+service : {
+  checkBalance: () -> (float64) query;
+  createUser: (text, text) -> (text);
+  loginUser: (text, text) -> (text);
+  logoutUser: () -> ();
+  topUp: (float64) -> (text);
+  transferTo: (text, float64) -> (text);
+  withdraw: (float64) -> (text);
+}

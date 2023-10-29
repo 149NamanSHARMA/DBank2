@@ -1,0 +1,48 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Changed the font for a more modern look */
+    background-image: url('bg2.jpg'); /* Set your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text for better readability */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Rounded corners */
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px; /* Rounded input fields and buttons */
+}
+
+button {
+    background-color: #D32F2F; /* Color from DBank logo */
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #B71C1C; /* Slightly darker shade for hover effect */
+}
+
+#register-section {
+    margin-top: 20px;
+}
+
+h2, h3 {
+    color: #388E3C; /* Green from background image */
+}

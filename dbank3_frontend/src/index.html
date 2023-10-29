@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>DBank</title>
+</head>
+<body>
+    <div class="container">
+        <img src="logo-no-background.png" alt="DBank Logo" style="display: block; margin: 0 auto; width: 150px;">
+        <!-- Login Form -->
+        <section id="loginSection">
+            <h2>Login</h2>
+            <input type="text" id="loginUsername" placeholder="Username">
+            <input type="password" id="loginPassword" placeholder="Password">
+            <button id="loginButton">Login</button>
+        </section>
+        
+        <div id="register-section">
+            <h2>Register</h2>
+            <input type="text" id="registerName" placeholder="Name">
+            <input type="password" id="registerPassword" placeholder="Password">
+            <button id="registerButton">Register</button>
+        <p id="registerMessage"></p></div>
+        
+        <!-- Account Section -->
+        <section id="accountSection" style="display: none;">
+        <h2>Account</h2>
+        <p>Balance: <span id="balanceDisplay">0</span></p>
+    
+        <!-- Topup Section -->
+        <div>
+            <label for="topupAmount">Top Up Amount:</label>
+            <input type="number" id="topupAmount" placeholder="Amount to Top Up">
+            <button id="topupButton">Top Up</button>
+        </div>
+
+        <!-- Withdraw Section -->
+        <div>
+            <label for="withdrawAmount">Withdraw Amount:</label>
+            <input type="number" id="withdrawAmount" placeholder="Amount to Withdraw">
+            <button id="withdrawButton">Withdraw</button>
+        </div>
+
+        <!-- Transfer Funds Section -->
+        <div id="transfer-section">
+        <h3>Transfer Funds</h3>
+        <label for="targetUsername">Target Username:</label>
+        <input type="text" id="targetUsername" placeholder="Enter target username">
+        <label for="transferAmount">Amount:</label>
+        <input type="number" id="transferAmount" placeholder="Enter amount to transfer">
+        <button id="transferButton">Transfer</button>
+        <p id="transferStatus"></p>
+        </div>
+
+
+        <button id="logoutButton">Logout</button>
+        </section>
+        </div>
+        
+        
+    </div>        
+    
+</body>
+</html>
